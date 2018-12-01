@@ -1,0 +1,25 @@
+﻿<Window x:Class="ChecksumRepairTool.CRTWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChecksumRepairTool"
+        mc:Ignorable="d"
+        Title="FFX Checksum Repair Tool"
+        Height="158"
+        Width="465"
+        ResizeMode="CanMinimize"
+        Icon="Resources/icon.ico"
+        WindowStartupLocation="CenterScreen"
+        SnapsToDevicePixels="True">
+  <Grid>
+    <Button x:Name="btnLoadFile" Content="Open Save File.." HorizontalAlignment="Left" Margin="16,20,0,0" VerticalAlignment="Top" Width="112" Click="BtnLoadFile_Click"/>
+    <Label x:Name="lblFilePath" Content="No File Selected.." HorizontalAlignment="Left" Margin="133,20,0,0" VerticalAlignment="Top" Width="299" Background="#FFF7F7F7" Height="20" Padding="5,0" VerticalContentAlignment="Center" IsEnabled="False"/>
+    <Label x:Name="lblHeadCurrentChecksum" Content="Current Checksum:" HorizontalAlignment="Left" Margin="16,56,0,0" VerticalAlignment="Top" Width="112" IsEnabled="False" HorizontalContentAlignment="Center"/>
+    <Label x:Name="lblHeadActualChecksum" Content="Actual Checksum:" HorizontalAlignment="Left" Margin="170,56,0,0" VerticalAlignment="Top" Width="112" IsEnabled="False" HorizontalContentAlignment="Center"/>
+    <Label x:Name="lblCurrentChecksum" Content="?? ??" HorizontalAlignment="Left" Margin="16,82,0,0" VerticalAlignment="Top" Width="112" HorizontalContentAlignment="Center" FontFamily="MS UI Gothic" FontSize="14"/>
+    <Label x:Name="lblActualChecksum" Content="?? ??" HorizontalAlignment="Left" Margin="170,82,0,0" VerticalAlignment="Top" Width="112" HorizontalContentAlignment="Center" FontFamily="MS UI Gothic" FontSize="14"/>
+    <Button x:Name="btnFixChecksum" Content="Apply and Save" HorizontalAlignment="Left" Margin="320,59,0,0" VerticalAlignment="Top" Width="112" IsEnabled="False" Click="BtnFixChecksum_Click"/>
+    <Label x:Name="lblSaved" Content="File Saved!" HorizontalAlignment="Left" Margin="320,78,0,0" VerticalAlignment="Top" Width="112" Foreground="#FF069526" HorizontalContentAlignment="Center" RenderTransformOrigin="0.5,1.077" Visibility="Hidden"/>
+  </Grid>
+</Window>

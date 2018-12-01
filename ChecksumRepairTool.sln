@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChecksumUtility", "ChecksumUtility\ChecksumUtility.csproj", "{0A835FB7-DD4C-4B11-8E21-FD01FDA4B89A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60B7AAE9-E0AB-4BDE-9ADE-97986ED68F59}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChecksumRepairTool", "ChecksumRepairTool\ChecksumRepairTool.csproj", "{9583FDE5-A728-47C2-8ED7-24323C88218C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A835FB7-DD4C-4B11-8E21-FD01FDA4B89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A835FB7-DD4C-4B11-8E21-FD01FDA4B89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A835FB7-DD4C-4B11-8E21-FD01FDA4B89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A835FB7-DD4C-4B11-8E21-FD01FDA4B89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9583FDE5-A728-47C2-8ED7-24323C88218C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9583FDE5-A728-47C2-8ED7-24323C88218C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9583FDE5-A728-47C2-8ED7-24323C88218C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9583FDE5-A728-47C2-8ED7-24323C88218C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {122FB8CC-32DF-4FEF-B1DD-1DC8EDA42A23}
+	EndGlobalSection
+EndGlobal
