@@ -49,16 +49,19 @@ namespace ChecksumRepairTool
           catch (Exception)
           {
             MessageBox.Show("Failed to read the save file", "Error");
-            SaveFileContent = null;
-            SaveFileLocation = null;
+            Reset();
           }
+        }
+        else
+        {
+          MessageBox.Show("Invalid Save File", "Error");
+          Reset();
         }
       }
       else
       {
         MessageBox.Show("File not found!", "Error", MessageBoxButton.OK);
-        SaveFileContent = null;
-        SaveFileLocation = null;
+        Reset();
       }
 
       return false;
